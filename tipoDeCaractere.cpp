@@ -14,7 +14,7 @@ cout << "A letra " << letra << " corresponde ao valor " << int(letra) <<< endl;
 cout << "O tipo char ocupa " << sizeof(char) << " bytes na memória.\n";
 letra = -120; //o tipo char pode armazenar valores negativos
 cout << "E pode armazenar valores negativos ( " << int(letra);
-letra =120;
+letra = 120;
 cout << " ) " "e positivos " << int(letra) << ")." << endl;
 unsigned char letra2 = 120; // o tipo de unsigned car equivale ao tipo char
 signed char letra3 = -120; // aqui o tipo signed char equivale ao tipo char
