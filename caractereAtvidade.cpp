@@ -30,7 +30,7 @@ int main(void)
 
     char caracter;
 
-    // Solucionando a questão "A" da atividade.
+    // Solucionando a questão "A e B" da atividade.
     for (int n = 48; n <= 57; n++)
     {
         caracter = n;
@@ -44,7 +44,7 @@ int main(void)
         cout << endl;
     }
 
-    // Solucionando a questão "B" da atividade.
+    // Solucionando a questão "C" da atividade.
     cout << "###################### Inserindo um valor #######################" << endl;
 
     cout << "Insira um caracter: " << endl;
@@ -58,13 +58,11 @@ int main(void)
 
     cout << endl;
 
-    // Solucionando a questão "C" da atividade.
+    // Solucionando a questão "D" da atividade.
 
-    wchar_t caracterEspecial = L'ç'; // Utilizamos a variável do wchar_t para armazenar caracteres unicode
-
-    caracterEspecial = L'ã';
-
-
+    // Utilizamos a variável do wchar_t para armazenar caracteres unicode
+    // Podendo adicionar "ç" ou "ã" como pede a questão
+    wchar_t caracterEspecial = L'ç';
 
     return (0);
 }
