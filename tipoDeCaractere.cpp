@@ -2,9 +2,11 @@
 
 using namespace std;
 
+   
 
 int main(void)
 {
+
 
 char letra = 'a'; //letra é uma variável de tipo char
 //a cada caracteres corresponde um valor inteiro
