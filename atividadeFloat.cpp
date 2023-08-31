@@ -90,7 +90,7 @@ long double pid2 = 3.14159265358979323846;
 
 //Imprimindo na tela o valor da variável pid2.
 cout << "Valor de pi em long double: " << pid2 << endl;
-
+cout<< endl;
 cout << "Valor de pi duas casas decimais:" << setprecision (2) << pid2 << endl;
 cout << "Valor de pi quatro casas decimais:" << setprecision (4) << pid2 << endl;
 cout << "Valor de pi oito casas decimais:" << setprecision (8) << pid2 << endl;
