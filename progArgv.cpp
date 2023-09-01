@@ -6,7 +6,6 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 
-
 //Manipulando entrada pelo argv
 //Utilizando a função atoi da biblioteca <stdlib.h> para converter a entrada
 //do tipo string em inteiro para fazer a subtração do ano 2023 e mostrar a idade*/
