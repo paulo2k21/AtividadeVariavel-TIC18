@@ -14,12 +14,21 @@ cout << "Digite um número inteiro: " << endl;
 
 cin >> num;
 
-for (int i = 0; i < count; i++)
+
+cout << "Números divisores de " << num << " são: " << endl;
+
+for (int i = 1; i < num; i++)
 {
-    /* code */
+
+    if(num % i == 0){
+    
+    cout << i << " - " ;
+
+    }
+    
 }
-
-
+cout << num;
+cout << endl;
 
 
 
