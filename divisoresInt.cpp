@@ -5,35 +5,28 @@ os divisores desse número.*/
 
 using namespace std;
 
-
-int main (void){
-
-int num;
-
-cout << "Digite um número inteiro: " << endl;
-
-cin >> num;
-
-
-cout << "Números divisores de " << num << " são: " << endl;
-
-for (int i = 1; i < num; i++)
+int main(void)
 {
 
-    if(num % i == 0){
-    
-    cout << i << " - " ;
+    int num;
 
+    cout << "Digite um número inteiro: " << endl;
+
+    cin >> num;
+
+    cout << "Números divisores de " << num << " são: " << endl;
+
+    for (int i = 1; i < num; i++)
+    {
+
+        if (num % i == 0)
+        {
+
+            cout << i << " - ";
+        }
     }
-    
-}
-cout << num;
-cout << endl;
+    cout << num;
+    cout << endl;
 
-
-
-
-
-
-    return(0);
+    return (0);
 }
