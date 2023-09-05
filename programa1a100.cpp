@@ -15,25 +15,32 @@ int main(void)
     {
 
 
+       //Condição para identificar se o número é múltiplos de 3 e 5.
+        if(i % 3 == 0 && i % 5 == 0)
+        {
+
+            cout << i << " : FizzBuzz" << endl;
+        }
+else{
         //Condição para identificar se o número é múltiplos de 3.
         if (i % 3 == 0)
         {
             cout << i << " : Fizz" << endl;
         }
-//Condição para identificar se o número é múltiplos de 5.
+        //Condição para identificar se o número é múltiplos de 5.
         if (i % 5 == 0)
         {
 
             cout << i << " : Buzz" << endl;
         }
 
-        //Condição para identificar se o número é múltiplos de 3 e 5.
-        if(i % 3 == 0 && i % 5 == 0)
+}
+        //Condição para identificar se o número não é múltiplos de 3 e 5.
+        if(i % 3 != 0 && i % 5 != 0)
         {
 
-            cout << i << " : FizzBuzz" << endl;
+            cout << i << "." << endl;
         }
-
         
     }
 
