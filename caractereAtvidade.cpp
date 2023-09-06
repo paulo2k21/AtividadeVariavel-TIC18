@@ -64,5 +64,8 @@ int main(void)
     // Podendo adicionar "ç" ou "ã" como pede a questão
     wchar_t caracterEspecial = L'ç';
 
+cout << string(1, caracterEspecial);
+
+
     return (0);
 }

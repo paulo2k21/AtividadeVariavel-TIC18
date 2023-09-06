@@ -8,30 +8,27 @@ using namespace std;
 int main(void)
 {
 
-int i, aux=0;
+   int aux = 1;
 
-for (i = 1; i <= 100; i++)
-{
+  for (int i = 1; i <= 100; i++)
+  {
 
-  for (int j = 1; j <= 100; j++)
-{  
-    if(i%j == 0){
-
-       aux++;
+aux = 0;
+    for (int j = 1; j <= 100; j++)
+    {
+      if (i % j == 0)
+      {
+        aux++;
+      }
 
     }
 
-     if(aux == 2){
+    if (aux == 2)
+      {
+        cout << i << " - " << endl;
+      }
+   
+  }
 
-cout << i << endl;
-
-}
-
-}
-
-
-
-}
-
-return(0);
+  return (0);
 }
