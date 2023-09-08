@@ -1,13 +1,37 @@
+/*atividade de testes em sala*/
 #include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
 
 int main(){
 
-char nome[10] = "Oi mundo";
+vector <string> vec;
 
-char x;
-nome[10]='G';
-std::cout << x;
+vec.push_back("Zangado");
+vec.push_back("Atchim");
+vec.push_back("Mestre");
+vec.push_back("Soneca");
+vec.push_back("Dunga");
+vec.push_back("Feliz");
+vec.push_back("Dengoso");
+
+for(auto x = vec.begin(); x!= vec.end(); x++) 
+
+cout << *x << endl;
+
+vector<string>::iterator it;
+it = vec.begin();
+advance(it,5);
+*it = "Branca";
+cout << "--------------------" << endl;
+
+for(auto x = vec.begin(); x != vec.end(); x++) 
+
+cout << *x << endl;
 
 
+return(0);
 
 }
