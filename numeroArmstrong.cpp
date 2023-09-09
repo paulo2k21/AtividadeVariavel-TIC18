@@ -43,7 +43,16 @@ int main(void)
         aux = aux / 10;
     }
 
-    cout << numArmstrong;
+    if (numInserido == numArmstrong)
+    {
+
+        cout << numInserido << " é um número Armstrong." << endl;
+    }
+    else
+    {
+
+        cout << numInserido << " Não é um número Armstrong." << endl;
+    }
 
     return (0);
 }
